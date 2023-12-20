@@ -51,9 +51,9 @@ let itemList=[];
 
 function addcart(){
     let food=this.parentElement
-    let title=food.querySelector('.food-title').innerHTML;
-    let price=food.querySelector('.food-price').innerHTML;
-    let imgsrc=food.querySelector('.food-image').src;
+    let title=food.querySelector('.food-title').innerHTML
+    let price=food.querySelector('.food-price').innerHTML
+    let imgsrc=food.querySelector('.food-image').src
 
     let newProduct={title,price,imgsrc}
 
